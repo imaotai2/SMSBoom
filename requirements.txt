@@ -12,4 +12,3 @@ pydantic
 rfc3986[idna2008]
 sniffio
 typing-extensions
-win32-setctime
