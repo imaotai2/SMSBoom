@@ -23,12 +23,11 @@ jobs:
           python-version: '3.8'
       - name: apt-get
         run: |
-        python -m pip install --upgrade pip
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
         
       - name: 🚀 Run SMSBoom Script
         # 此处可以自定义命令行运行参数.替换手机号
         run: |
-      
-          Python smsboom.py update
+          python smsboom.py update
           # python3 smsboom.py run -p 18617720530 -t 64
