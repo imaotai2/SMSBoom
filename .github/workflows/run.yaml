@@ -27,4 +27,4 @@ jobs:
         run: |
           pip3 install -r requirements.txt
           Python3 smsboom.py update
-          python3 smsboom.py run -p 18617720530 -t 64
+          # python3 smsboom.py run -p 18617720530 -t 64
